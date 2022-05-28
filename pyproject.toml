@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "data-science-from-scratch"
+version = "0.1.0"
+description = "Learn data_science"
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.9.9"
+
+[tool.poetry.dev-dependencies]
+# For a nicer terminal
+ipython = "^4.0"
+
+# For plotting graphs
+matplotlib = "^3.5.2"
+
+# For reading in images
+pillow = "^9.1.1"
+
+# For making HTTP requests
+requests = "^2.11.1"
+
+# For parsing HTML
+beautifulsoup4 = "^4.9.0"
+html5lib = "^1.1"
+
+# For accessing Python
+twython = "^3.8.0"
+
+# For generating progress bars
+tqdm = "^4.64.0"
+
+# For downloading MNIST data
+mnist = "^0.2.2"
+
+# For parsing dates
+python-dateutil = "^2.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
